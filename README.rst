@@ -36,7 +36,7 @@ with key binding ``C-x`` ``)``. It's just that how do you recall the
 macro easily for rest of the lines?
 
 This package contains function that asks at the end of macro recording
-``C-x`` ``)`, where the user wants to save the macro for later recall.
+``C-x`` ``)`, where the user wants to save the macro for later recall. ::
 
     Tinymacro: Set last macro to key(s): <press any key, or combination>
 
@@ -45,7 +45,7 @@ differenk keys. Usually the F-keys are good places for storing
 temporary macros as they are mostly free and easily accessible.
 
 If you reuse the same key, or of you accidentally press unwanted key,
-you will receive a warning before the key is about to be bound:
+you will receive a warning before the key is about to be bound: ::
 
     Key already occupied by tinymacro--macro1; continue? (y or n)
     TinyMacro: Created function: tinymacro--macro1
@@ -58,5 +58,5 @@ preformatted software packages for `Emacs`_ that provide easy way to
 install more features to Emacs. Similar to concept of Windows MSI or
 Linux *.rpm (Redhat) and *.deb (`Debian`_) packages.
 
-See see `DELPS`, Distributed Emacs Lisp Packages, for more
+See `DELPS`_, Distributed Emacs Lisp Packages, for more
 information.
