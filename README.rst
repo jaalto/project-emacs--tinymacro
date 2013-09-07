@@ -5,6 +5,7 @@
 .. _DELPS: http://www.emacswiki.org/emacs/DELPS
 .. _epackage.el: http://www.emacswiki.org/emacs/DELPS
 .. _Tiny Tools: http://www.emacswiki.org/emacs/TinyTools
+.. _Debian: http://www.debian.org
 
 Description
 ===========
