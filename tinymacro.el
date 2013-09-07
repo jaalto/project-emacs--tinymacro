@@ -1,4 +1,4 @@
-;;; tinymacro.el --- An easy way to assign newly created macro to a key
+;;; tinymacro.el --- An easy way to assign created macros to a keys
 
 ;; This file is not part of Emacs
 
@@ -42,7 +42,7 @@
 ;;      This started as a very small project when
 ;;      <mosh@ramanujan.cs.albany.edu> (Mohsin-Ahmed) 1995-03-17 in
 ;;      gnu.emacs.help asked for an easy way to assign newly created
-;;      macro to some key. In reponse the author I sent a simple
+;;      macro to a some key. In reponse the author I sent a simple
 ;;      function to do it, but he informed that it was oly suitable
 ;;      for one macro; the key was recycled every time. After
 ;;      extending the idea, that little function become a package.
@@ -63,7 +63,7 @@
 (custom-declare-group
  'tinymacto
  nil
- "An easy way to assign newly created macro to a key
+ "An easy way to assign created macros to a keys
   Overview of features.
 
         o   Two keystrokes to make a macro: one to record, one to

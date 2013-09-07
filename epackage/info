@@ -14,7 +14,7 @@ Vcs-Browser: https://github.com/jaalto/project-emacs--tinymacro
 Homepage:
 Wiki: http://www.emacswiki.org/emacs/TinyTools
 Commentary: tinymacro.el
-Description: an easy way to assign newly created macro to a key
+Description: an easy way to assign created macros to a keys
  Emacs has standard macro record key C-x '(' and macro end key C-x ')'
  but's recording several macros and playing them from keys has been
  missing.
