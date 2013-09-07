@@ -12,7 +12,7 @@ Description
 This project contains a small utility that helps using standard Emacs
 keyboard macros easier. Let's assume following small editing problem
 where the links should be converted from "http" => "https" and each
-surrounded by quotes suitable for insserting to some programming code: ::
+surrounded by quotes suitable for inserting to some programming code: ::
 
     http://example.com
     http://example.biz
@@ -21,7 +21,7 @@ surrounded by quotes suitable for insserting to some programming code: ::
     ...
 
 The same task would be repeated for each line, In Emacs, position the
-cureor at the beginning of the first line, press the macro recording
+cursor at the beginning of the first line, press the macro recording
 key ``C-x`` ``(`` and do whatever editing you need to do to complete
 the first line. Say, like this: ::
 
@@ -41,7 +41,7 @@ This package contains function that asks at the end of macro recording
     Tinymacro: Set last macro to key(s): <press any key, or combination>
 
 If you record multiple macros, each one of them can be stored to
-differenk keys. Usually the F-keys are good places for storing
+different keys. Usually the F-keys are good places for storing
 temporary macros as they are mostly free and easily accessible.
 
 If you reuse the same key, or of you accidentally press unwanted key,
@@ -54,7 +54,7 @@ Epackage
 ========
 
 This repository is part of the Epackages network. The epackages are
-preformatted software packages for `Emacs`_ that provide easy way to
+pre-formatted software packages for `Emacs`_ that provide easy way to
 install more features to Emacs. Similar to concept of Windows MSI or
 Linux *.rpm (Redhat) and *.deb (`Debian`_) packages.
 
