@@ -12,7 +12,7 @@ Description
 This project contains a small utility that helps using standard Emacs
 keyboard macros easier. Let's assume following small editing problem
 where the links should be converted from "http" => "https" and each
-surrounded by quotes suitable for insserting to some programming code:
+surrounded by quotes suitable for insserting to some programming code: ::
 
     http://example.com
     http://example.biz
@@ -23,9 +23,9 @@ surrounded by quotes suitable for insserting to some programming code:
 The same task would be repeated for each line, In Emacs, position the
 cureor at the beginning of the first line, press the macro recording
 key ``C-x`` ``(`` and do whatever editing you need to do to complete
-the first line. Say, like this:
+the first line. Say, like this: ::
 
-    print "http://example.com";
+    print "https://example.com";
     http://example.biz
     http://example.net
     http://example.info
