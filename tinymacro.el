@@ -1,4 +1,4 @@
-;;; tinymacro.el --- Fast way to assign newly created macro to a key
+;;; tinymacro.el --- An easy way to assign newly created macro to a key
 
 ;; This file is not part of Emacs
 
@@ -63,7 +63,7 @@
 (custom-declare-group
  'tinymacto
  nil
- "An easy way to assign newly created macro to key
+ "An easy way to assign newly created macro to a key
   Overview of features.
 
         o   Two keystrokes to make a macro: one to record, one to
