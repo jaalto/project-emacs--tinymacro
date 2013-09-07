@@ -57,7 +57,7 @@ Epackage
 This repository is part of the Epackages network. The epackages are
 pre-formatted software packages for `Emacs`_ that provide easy way to
 install more features to Emacs. Similar to concept of Windows MSI or
-Linux *.rpm (Redhat) and *.deb (`Debian`_) packages.
+RedHat Linux *.rpm and `Debian`_ *.deb packages.
 
 See `DELPS`_, Distributed Emacs Lisp Packages, for more
 information.
