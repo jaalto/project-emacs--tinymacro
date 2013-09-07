@@ -1,0 +1,29 @@
+Package: tinymacro
+Section: extensions
+License: GPL-2+
+Depends: emacs (>= 24)
+Status: stable
+Archive:
+Maintainer: Jari Aalto <jari.aalto@cante.net>
+Bugs:
+Upstream: Jari Aalto <jari.aalto@cante.net>
+Upstream-Bugs: https://github.com/jaalto/project-emacs--tinymacro/issues
+Vcs-Type: git
+Vcs-Url: https://github.com/jaalto/project-emacs--tinymacro.git
+Vcs-Browser: https://github.com/jaalto/project-emacs--tinymacro
+Homepage:
+Wiki: http://www.emacswiki.org/emacs/TinyTools
+Commentary: tinymacro.el
+Description: an easy way to assign newly created macro to a key
+ Emacs has standard macro record key C-x '(' and macro end key C-x ')'
+ but's recording several macros and playing them from keys has been
+ missing.
+ .
+ This package contains a helper function that can be bound to the C-x
+ ')' key. Ater user has recorded the action, it is saved to a
+ temporary function and user can select a key from which the macro can
+ be recalled. E.g. if you kill some line, replace another text ... you
+ can assign the action to a some free F-key.
+ .
+ Several macros can be bound to different keys to make it possible to
+ combine and repeat complex text manipulation actions in a buffer.
