@@ -6,6 +6,7 @@
 .. _epackage.el: http://www.emacswiki.org/emacs/DELPS
 .. _Tiny Tools: http://www.emacswiki.org/emacs/TinyTools
 .. _Debian: http://www.debian.org
+.. _Epackages network: https://github.com/jaalto/project--emacs-epackage-sources-list
 
 Description
 ===========
@@ -54,7 +55,7 @@ you will receive a warning before the key is about to be bound: ::
 Epackage
 ========
 
-This repository is part of the Epackages network. The epackages are
+This repository is part of the `Epackages network`_. The epackages are
 pre-formatted software packages for `Emacs`_ that provide easy way to
 install more features to Emacs. Similar to concept of Windows MSI or
 RedHat Linux *.rpm and `Debian`_ *.deb packages.
